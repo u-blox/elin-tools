@@ -70,6 +70,10 @@ git_setup() {
 	if [ ! -d $path ]; then
 		echo "Setting up $path"
 		git clone --single-branch --branch $branch $url
+		if [ $? -ne 0 ]; then
+			echo "Single branch not supported"
+			git clone --branch $branch $url
+		fi
 		cd $path
 		git reset --hard $tag
 	else
