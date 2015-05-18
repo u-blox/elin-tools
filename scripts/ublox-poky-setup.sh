@@ -24,10 +24,10 @@ UBLOX_GIT_PROTOCOL="ssh"
 
 branch=daisy
 
-rev_poky=daisy-11.0.1
-rev_meta_openembedded=518cd119a8724dbd485a5d5c5047de59e8fbd652
-rev_meta_ublox=elin-w16_v0.9.0.0
-rev_meta_ublox_extras=elin-w16_v0.9.0.0
+rev_poky=daisy-11.0.2
+rev_meta_openembedded=d3d14d3fcca7fcde362cf0b31411dc4eea6d20aa
+rev_meta_ublox=elin-w16_v0.9.1.0
+rev_meta_ublox_extras=elin-w16_v0.9.1.0
 
 backup_suffix="backup-$(date +%F-%H%M%S)"
 
