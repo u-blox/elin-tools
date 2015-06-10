@@ -24,10 +24,12 @@ UBLOX_GIT_PROTOCOL="ssh"
 
 branch=daisy
 
-rev_poky=daisy-11.0.2
+# Revision is 1 commit ahead of daisy 11.0.3 due to DISTRO variable not set in
+# yocto
+rev_poky=240da756168b58eb05300a23c8282942f913db2d
 rev_meta_openembedded=d3d14d3fcca7fcde362cf0b31411dc4eea6d20aa
-rev_meta_ublox=elin-w16_v0.9.1.0
-rev_meta_ublox_extras=elin-w16_v0.9.1.0
+rev_meta_ublox=elin-w16_v1.0.0.0
+rev_meta_ublox_extras=elin-w16_v1.0.0.0
 
 backup_suffix="backup-$(date +%F-%H%M%S)"
 
