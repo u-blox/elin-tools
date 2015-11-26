@@ -20,7 +20,7 @@
 set -e
 
 UBLOX_GIT="git@github.com/u-blox"
-UBLOX_GIT_PROTOCOL="https"
+UBLOX_GIT_PROTOCOL="http"
 
 branch=fido
 
